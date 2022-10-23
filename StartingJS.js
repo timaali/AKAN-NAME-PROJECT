@@ -33,7 +33,7 @@ var akanName = function(Year, Month, Day, Gender){
   var DD = parseInt(Day);
   console.log(CC, YY, MM, DD);
   
-  var dayOfTheWeek = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
+  var dayOfTheWeek = Math.floor(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7)
   console.log(dayOfTheWeek);
   if (Gender === "F"){
     return femaleNames[dayOfTheWeek]
