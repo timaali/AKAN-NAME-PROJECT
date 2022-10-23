@@ -14,17 +14,19 @@ var Input = function(inputType, message){
     }
 
     else if (inputType === "Day"){
+        console.log(Month);
         if (isNaN(userInput) || parseInt(userInput)> 31 || parseInt(userInput) < 1) {        
             userInput = Input(inputType, "Please Enter a Valid Day of Birth e.g 1 - 31");       
         }
         if (userInput>30 && [4,6,9,11].includes(Month)) {
             userInput = Input(inputType, "This Month only has 30 days only, please enter a valid day"); 
         }
-        if (Month === 2) {
-            if (Year % 4 === 0 && userInput > 29){
+        
+        if (parseInt(Month) === 2) {
+            if (Year % 4 === 0 && parseInt(userInput) > 29){
                 userInput = Input(inputType, "This Month only has 29 days only, please enter a valid day"); 
             }
-            else if (Year % 4 !== 0 && userInput > 28){
+            else if (Year % 4 !== 0 && parseInt(userInput) > 28){
                 userInput = Input(inputType, "This Month only has 28 days only, please enter a valid day"); 
             }
 
