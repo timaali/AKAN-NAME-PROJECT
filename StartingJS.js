@@ -43,7 +43,7 @@ var akanName = function(Year, Month, Day, Gender){
   }
 }
 
-var Generator = function(){
+var generator = function(){
     var Year = Input("Year", "please Enter Your Year of Birth");
     var Month = Input("Month", "please Enter Your Month of Birth");
     var Day = Input("Day", "please Enter Your Day of Birth");
