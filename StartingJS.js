@@ -43,15 +43,16 @@ var akanName = function(Year, Month, Day, Gender){
   }
 }
 
-var Year = Input("Year", "please Enter Your Year of Birth");
-var Month = Input("Month", "please Enter Your Month of Birth");
-var Day = Input("Day", "please Enter Your Day of Birth");
-var Gender = Input("Gender", "please Enter Your Gender F or M");
-console.log(Year, Month, Day, Gender);
-var Name = akanName(Year, Month, Day, Gender);
+var Generator = function(){
+    var Year = Input("Year", "please Enter Your Year of Birth");
+    var Month = Input("Month", "please Enter Your Month of Birth");
+    var Day = Input("Day", "please Enter Your Day of Birth");
+    var Gender = Input("Gender", "please Enter Your Gender F or M");
+    console.log(Year, Month, Day, Gender);
+    var Name = akanName(Year, Month, Day, Gender);
 
-console.log(Name);
-
+    console.log(Name);
+}
 
 
 
