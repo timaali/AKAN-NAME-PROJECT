@@ -1,12 +1,13 @@
-var add = function(number1, number2) {
-    return number1+number2;
-};
+var Input = function(){
+    var yearOfBirth = parseInt(prompt("please Enter Your Year of Birth"));
+    
+    if (yearOfBirth === NaN || yearOfBirth > 2022 || yearOfBirth.toString().length > 4) {
+        Input();
+    }
+    }
 
+    Input();
 
-var number1 = parseInt(prompt("Enter your First number"));
-var number2 = parseInt(prompt("Enter your second number"));
-var result = add(number1, number2);
-alert(result);
 
 
 
