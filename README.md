@@ -7,9 +7,9 @@ __Tima Mwanashifa Ali__
 
 #### **DESCRIPTION OF PROJECT PURPOSE:**
 
-__The Website takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+The Website takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
 
-Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.__
+Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 
 #### **LANGUAGES USED:**
 
@@ -28,5 +28,5 @@ To view the website click [Here]()
  
 #### **COPYRIGHT AND LICENSE INFORMATION:**
  This project is licensed using the MIT lincense.
- You can checkout the full license [here]()
+ You can checkout the full license [here](https://github.com/timaali/AKAN-NAME-PROJECT/blob/master/LICENCE.txt)
 
