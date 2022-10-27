@@ -21,7 +21,7 @@ Clone this repo to your desktop and begin your developing!
 
 
 #### **LINK TO THE SITE:**
-To view the website click [Here]()
+To view the website click [Here](Timaali.com)
  
  
 #### **COPYRIGHT AND LICENSE INFORMATION:**
