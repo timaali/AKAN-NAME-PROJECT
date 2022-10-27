@@ -69,7 +69,7 @@ var generator = function () {
     var Name = akanName(Year, Month, Day, Gender);
 
     //console.log(Name);
-    document.getElementById("generatedName").innerHTML = "Your Akan Name is: " + Names + ", Cool Right?!";
+    document.getElementById("generatedName").innerHTML = "Your Akan Name is: " + Name + ", Cool Right?!";
 }
 
 
