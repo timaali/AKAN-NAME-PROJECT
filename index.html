@@ -13,6 +13,18 @@
             background-color: var(--bs-light);
             border-radius: .3rem;
         }
+
+        h1 {
+            text-align: center;
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
     </style>
 
     <!-- <style type="text/css">
@@ -33,7 +45,7 @@
         <!-- </div> -->
 
         <div class="jumbotron">
-            <h1>ABOUT US</h1>
+            <h4>ABOUT US</h4>
             <p>
                 Hello There and welcome to the Akan Name generator. This is a game uses your birthday and gender to
                 determiner your Akan Name.
@@ -41,12 +53,19 @@
                 a 'day name' which corresponds to the day in the week they were born.
 
             </p>
-        </div>
-        <input type="button" onclick="generator()" value="Generate My Akan Name"></input>
-        <div id="generatedName"></div>
 
+
+        </div>
+        
+        <h5 style="font-family:courier;">To play click on the button below and discover your Akan Name</h5>
+
+        
+        <input style="color: rgb(80, 5, 47);" type="button" onclick="generator()" value="Generate My Akan Name"></input>
+        <div id="generatedName"></div>
+    
 
         <script src="AkanNameGenerator.js"></script>
+    
     </div>
 
     <style>
